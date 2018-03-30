@@ -1,0 +1,33 @@
+.new-tweet {
+    display: none;
+    border-radius: 5px;
+    border: 2px solid #c3c3c3;
+    padding: 0em;
+    height: 150px;
+    margin: auto;
+    background: #e0e0e0;
+}
+
+.new-tweet h2 {
+    border-bottom: 1px solid black;
+    width: 95%;
+    margin: auto;
+    padding: .5em .25em .1em .25em;
+}
+
+.new-tweet textarea {
+    width: 95%;
+    margin: .75em;
+}
+
+.new-tweet input {
+    margin: 0em .5em 0em 1em;
+    float: left;
+}
+
+.new-tweet span {
+    float: right;
+    padding: 0em 1em 0em 1em;
+    font-style: italic;
+    font-size: smaller;
+}

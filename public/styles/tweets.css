@@ -1,0 +1,90 @@
+{
+  border: red solid 1px;
+}
+
+.oldTweet{
+  border-radius: 5px;
+  border: 2px solid #b9b8b8;
+  margin: 0em 0em 2em 0em;
+}
+
+#tweetContainer {
+  padding: 3em 0em 0em 0em;
+  height 30px;
+  width: 100%;
+}
+
+#tweetContainer img {
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 10px 10px 0px 10px;
+  border-radius:8%;
+  overflow:hidden;
+}
+
+article:hover header{
+  opacity: 1.0;
+}
+
+header {
+  opacity: .6;
+  background-color: #e0e0e0;
+  width: 100%;
+  height: 80px;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.displayName{
+  float: left;
+  padding: 10px 0px 0px 0px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.userName{
+  float: right;
+  padding: 15px 5px 0px 0px;
+}
+
+article:hover .content{
+  opacity: 1.0;
+}
+
+.content{
+  padding: 1em;
+  opacity: 0.6;
+}
+
+footer{
+  border-top: 1px solid #d0d0d0;
+  width: 100%;
+  height: 30px
+}
+
+article:hover .icons{
+  opacity: 1.0;
+}
+
+.icons {
+ opacity: 0;
+ width: 30%;
+ height: 30px;
+ padding: 5px 0px;
+ float: right;
+ color: #00a087;
+}
+
+.fa {
+ width: auto;
+ height: auto;
+ padding: 0em .5em 0em .5em;
+}
+
+.daysSince {
+  font-size: smaller;
+  width: 30%;
+  border-radius: 0px 0px 4px 4px;
+  padding: 5px 0px 0px 20px;
+  float: left;
+}
